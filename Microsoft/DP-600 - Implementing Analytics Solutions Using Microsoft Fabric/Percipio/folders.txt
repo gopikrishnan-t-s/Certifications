@@ -1,0 +1,19 @@
+1. Microsoft Fabric: Getting Started and the DP-600 Exam
+2. Microsoft Fabric: Working with Data Lakehouses
+3. Microsoft Fabric: Spark & the Capacity Metrics App for Lakehouses
+4. Microsoft Fabric: Spark Configuration & Delta Tables
+5. Microsoft Fabric: The Medallion Architecture with a Star Schema
+6. Microsoft Fabric: Introducing Data Warehouses
+7. Microsoft Fabric: Monitoring Fabric Warehouses
+8. Microsoft Fabric: Implementing Security in Fabric Warehouses
+9. Microsoft Fabric: OneLake, KQL, and KQL DB
+10. Microsoft Fabric: Getting Started with Semantic Models
+11. Microsoft Fabric: Semantic Models and Semantic Link
+12. Microsoft Fabric: Getting Started with DAX Queries
+13. Microsoft Fabric: Advanced DAX Queries and Tools to Manage Semantic Models
+14. Microsoft Fabric: Administration, T-SQL, and Data Analytics
+15. Microsoft Fabric: Data Transformations Using Dataflow Gen2
+16. Microsoft Fabric: Creating and Using Simple Data Pipelines
+17. Microsoft Fabric: Working with Complex Data Pipelines
+
+"1. Microsoft Fabric - Getting Started and the DP-600 Exam", "2. Microsoft Fabric - Working with Data Lakehouses", "3. Microsoft Fabric - Spark & the Capacity Metrics App for Lakehouses", "4. Microsoft Fabric - Spark Configuration & Delta Tables", "5. Microsoft Fabric - The Medallion Architecture with a Star Schema", "6. Microsoft Fabric - Introducing Data Warehouses", "7. Microsoft Fabric - Monitoring Fabric Warehouses", "8. Microsoft Fabric - Implementing Security in Fabric Warehouses", "9. Microsoft Fabric - OneLake, KQL, and KQL DB", "10. Microsoft Fabric - Getting Started with Semantic Models", "11. Microsoft Fabric - Semantic Models and Semantic Link", "12. Microsoft Fabric - Getting Started with DAX Queries", "13. Microsoft Fabric - Advanced DAX Queries and Tools to Manage Semantic Models", "14. Microsoft Fabric - Administration, T-SQL, and Data Analytics", "15. Microsoft Fabric - Data Transformations Using Dataflow Gen2", "16. Microsoft Fabric - Creating and Using Simple Data Pipelines", "17. Microsoft Fabric - Working with Complex Data Pipelines"
