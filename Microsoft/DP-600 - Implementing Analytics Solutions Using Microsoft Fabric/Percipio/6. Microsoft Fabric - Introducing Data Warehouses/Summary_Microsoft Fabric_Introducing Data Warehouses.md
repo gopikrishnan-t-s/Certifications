@@ -1,7 +1,3 @@
-Here is the complete, high-fidelity DP-600 study and exam-preparation guide. This master document fully synthesizes the architectural paradigms, configuration settings, coding constructs, and detailed step-by-step SQL syntax of **Microsoft Fabric: Introducing Data Warehouses** with the previous paths.
-
----
-
 # SECTION 1: Strategic Architectural Placement
 
 ```
