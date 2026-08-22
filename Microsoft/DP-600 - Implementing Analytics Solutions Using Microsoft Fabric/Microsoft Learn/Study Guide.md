@@ -74,11 +74,8 @@ You should also be able to query and analyze data by using Structured Query Lang
 | Study resources | Links to learning and documentation |
 | --- | --- |
 | Get trained | [Choose from self-paced learning paths and modules or take an instructor-led course](https://learn.microsoft.com/en-us/credentials/certifications/exams/DP-600#two-ways-to-prepare) |
-| Find documentation | [Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/) \ [What is a lakehouse?](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview) \ [What is data warehousing?](https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing) \ [Data warehousing and analytics](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/data/data-warehouse) |
-| Ask a question | [Microsoft Q&A | Microsoft Docs](https://learn.microsoft.com/en-us/answers/products/) |
-Get community support	Analytics on Azure - Microsoft Tech Community
-Microsoft Fabric Blog
-Follow Microsoft Learn	Microsoft Learn - Microsoft Tech Community
-Find a video	Exam Readiness Zone
-Data Exposed
-Browse other Microsoft Learn shows
+| Find documentation | <br>[Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/)<br>[What is a lakehouse?](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview)<br>[What is data warehousing?](https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing)<br>[Data warehousing and analytics](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/data/data-warehouse) |
+| Ask a question | [Microsoft Q&A](https://learn.microsoft.com/en-us/answers/products/) |
+| Get community support	| [Analytics on Azure - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/analytics-on-azure/bd-p/AnalyticsonAzureDiscussion)<br>[Microsoft Fabric Blog](https://www.microsoft.com/microsoft-fabric/blog/)|
+| Follow Microsoft Learn | [Microsoft Learn - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn)
+| Find a video | [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/)<br>[Data Exposed](https://learn.microsoft.com/en-us/shows/data-exposed/)<br>[Browse other Microsoft Learn shows](https://learn.microsoft.com/en-us/shows/browse) |
