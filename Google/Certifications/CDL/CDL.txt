@@ -1,0 +1,31 @@
+> An organization stores backup files in Cloud Storage. The files will be accessed annually to test the disaster recovery plans. Which storage c is the most cost-effective? 
+>> Coldline class
+
+> An organization is running SQL Server on-premises and is struggling with capacity and management overhead. They want to modernize this database quickly by using Google products or services. What should the organization do?
+>> Perform a managed database migration to Cloud SQL.
+
+> What does the shift toward cloud computing represent for an organization's transformation?
+>> B. An opportunity to redefine existing business processes and service
+
+> An organization needs a flexible and scalable NoSQL database with strong web and mobile application support. Which Google Cloud product service should the organization use? 
+>> Firestore
+
+> What is a defining feature of a non-relational database
+>>A flexible data model
+
+> What is an example of unstructured data?
+>> Call center transcripts
+
+> An organization has migrated all workloads to the cloud and is reviewing their cloud security posture. Who is now responsible for securing the physical infrastructure of the data centers?
+>> The cloud service provider
+
+> An organization wants to lease the resources they need for their customized servers from a cloud provider on a pay-as-you-go basis, instead of paying one time for hardware. Which service model should they use? 
+>> Infrastructure as a service
+
+> An organization wants a purpose-built AI solution to increase efficiency and provide personalized interactions for their customer care team. Which Google Cloud AI solution should they use? 
+>> Contact Center AI
+
+> An organization wants to use an open source library with a flexible ecosystem of tools to create and train its own machine learning models. Which product or solution should the organization use? 
+>> TensorFlow
+
+> 

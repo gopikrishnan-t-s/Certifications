@@ -1,0 +1,106 @@
+   - **Security in IaaS Cloud Service Model**: Shared responsibility between customer and cloud service provider (CSP).
+   - **Data Warehouse vs. Data Lake**: Differences in use cases and functionalities.
+   - **Google Cloud Adoption Framework**: Themes like Lead, Learn, Scale, Secure.
+   - **Responsible AI Practices**: Engagement with multiple users during development.
+   - **Reducing Toil in Google Cloud Operations**: Use of observability tools and automation.
+   - **Cloud Service Models**: IaaS, SaaS, PaaS, DaaS.
+   - **Digital Transformation and Cloud Technology**: Guiding business decisions using data analytics.
+   - **Managing Cloud Environments**: Issues like lack of cost predictability and cloud usage transparency.
+   - **Google Cloud Services**: Various services like Payment Gateway, Cloud Monitoring, Cloud Data Fusion.
+   - **Cloud Identity Management**: Federating user identities and managing access.
+   - **Cloud SQL for Database Management**: Fully managed relational database service.
+   - **Cloud Storage for Data Management**: RESTful service for storage and data lifecycle management.
+   - **Transformational AI Adoption**: Building and deploying ML models.
+   - **Site Reliability Engineering (SRE) Best Practices**: Gradual release of modifications, monitoring, error budgets.
+   - **Anthos for Hybrid Cloud**: Managing applications on both on-premises and cloud environments.
+   - **Bare Metal for Oracle Workloads**: Modernizing infrastructure by moving Oracle workloads to Google Cloud.
+   - **Financial Governance in Cloud**: Setting usage quotas, creating budget alerts.
+   - **Machine Learning (ML) Pipeline**: Data validation, model validation, continuous training.
+   - **API Management with Apigee**: Monitoring, securing, scaling APIs.
+   - **Cloud Resource Monitoring and Application Performance Management**: Using Cloud Trace, Cloud Monitoring, Cloud Logging
+   - **SLAs and SLOs**: Importance of setting SLOs higher than SLAs.
+   - **Google Cloud Services**: Various services like Cloud Logging, Cloud Monitoring, Cloud Build, Cloud Functions, Cloud Run, Anthos, Apigee hybrid.
+   - **Service Level Indicators (SLIs)**: Valid SLIs include the percentage of correct user responses and the number of successful login attempts.
+   - **Error Budget and Deployment**: Halting deployments when the error budget is consumed.
+   - **Hybrid Cloud Deployment**: Deploying frontend applications to a public cloud for frequent updates.
+   - **Data Management and Security**: Using Document AI, Cloud Armor, Cloud Endpoints.
+   - **Financial Governance**: Using billing APIs, setting resource quotas.
+   - **Application Modernization**: Using containers and cloud-native applications.
+   - **Machine Learning and AI**: Using Vertex AI for managing ML models.
+   - **Business Intelligence**: Using Looker for accessing intelligent data.
+   - **Cloud Adoption Framework**: Assessing cloud readiness using themes like Learn, Lead, Scale, Secure.
+   - **DevOps**: Increasing software stability and making deployments quicker.
+   - **Data Warehousing**: Using BigQuery for building a data warehouse.
+   - **Data Ingestion**: Using Cloud Data Fusion for data ingestion.
+   - **Security and Compliance**: Shared responsibility model for security
+   - **Cloud Natural Language API**: Extracting sentiment from text reviews.
+   - **Cloud Monitoring**: Checking the status of SLOs and computing error budgets.
+   - **Anthos**: Managing Kubernetes clusters.
+   - **Memorystore**: Fully managed service for Redis.
+   - **Shared Responsibility Model in GKE**: Customer responsibilities.
+   - **Pub/Sub**: Middleware for messaging.
+   - **Apigee**: Building, securing, scaling, and analyzing APIs.
+   - **Multi-region Buckets**: Optimizing costs and providing global access.
+   - **Vertex AI**: Building, deploying, and scaling ML models.
+   - **Reducing Toil**: Using observability tools.
+   - **Containerization**: Modernizing applications.
+   - **Hybrid Cloud**: Combining on-premises data centers with public cloud.
+   - **BigQuery**: Building a scalable data warehouse.
+   - **Cloud SQL**: Fully managed relational database service.
+   - **Cloud Cost Management**: Implementing resource quotas, budgetary alerts.
+   - **Security in Google Cloud**: Encryption at rest, IAM for access control
+   - **Cost Management and Financial Governance**: Setting resource quotas, using budget notifications.
+   - **Cloud Security and Operations**: Using Cloud Armor, Chronicle, Cloud Logging, Cloud Monitoring.
+   - **Application Modernization and Infrastructure**: Using containers, GKE, Anthos, VMware Engine, Cloud Run.
+   - **Data Management and Analytics**: Using BigQuery, Cloud Data Fusion, Looker, data mesh.
+   - **Machine Learning and AI**: Using Vertex AI, Cloud Natural Language API, Document AI, Dialogflow.
+   - **Cloud Adoption and Digital Transformation**: Hybrid cloud, cloud service models, cloud migration strategies.
+   - **Service Level Agreements (SLAs) and Objectives (SLOs)**: Setting SLOs higher than SLAs.
+   - **API Management and Automation**: Using API Gateway, Cloud Build
+   - **Cloud Monitoring**: Evaluating cloud infrastructure, monitoring uptime, health, and performance.
+   - **Memorystore**: Managed Redis services.
+   - **Cloud-native applications**: Enhancing application modernization.
+   - **Financial governance**: Implementing organizational policies.
+   - **Vertex AI Workbench**: ML development environments.
+   - **Service Level Indicators (SLIs)**: Valid SLIs include the percentage of correct user responses.
+   - **Google Cloud benefits**: Quick deployment of applications.
+   - **Scaling strategy**: Transformational approach.
+   - **Cloud Logging**: Creating alerts based on specific error events.
+   - **Launch and iterate**: Continuous experimentation.
+   - **Vertex AI**: Managing dataset creation, data upload, ML model training.
+   - **Hybrid cloud environment**: Public cloud for data lakes.
+   - **Serverless computing**: Infrastructure provisioned by the cloud provider.
+   - **Application modernization drivers**: System visibility, control, agile systems.
+   - **Error budget**: For a service with 99.5% availability SLO.
+   - **Financial governance**: Using resource labels and hierarchies.
+   - **IaaS benefits**: Testing, development, big data analysis.
+   - **Cost optimization**: Deleting idle VM instances.
+   - **Cloud SQL**: Fully managed relational databases.
+   - **Hybrid cloud**: Using on-premises data centers with public cloud.
+   - **Hybrid cloud benefits**: Increased privacy and compliance.
+   - **Least privilege principle**: Users access only necessary resources.
+   - **Apigee hybrid**: Hosting APIs on-premises and on Google Cloud.
+   - **Cloud Data Fusion**: Data ingestion into data lakes.
+   - **IaaS key aspect**: Dynamic provisioning of resources.
+   - **ML pipeline**: Data validation, model validation.
+   - **Responsible AI tools**: Model cards, TensorFlow toolkit.
+   - **SLOs for development and operations**: Common SLOs ensure reliability.
+   - **Cloud Endpoints**: Managing APIs, monitoring, specifying quotas.
+   - **Cloud IAM**: Centralized user access management.
+   - **Looker**: Improving decision-making and productivity through BI
+ 
+
+-------------------------------------------------------------------------------------------------
+
+>> Cloud Service Models: Understanding the differences between IaaS, SaaS, PaaS, and DaaS, and their respective use cases.
+>> Security in Cloud: The shared responsibility model between customers and cloud service providers, encryption at rest, IAM for access control, and federating user identities.
+>> Data Management: Differences between data warehouses and data lakes, using BigQuery for data warehousing, and Cloud Data Fusion for data ingestion.
+>> Google Cloud Services: Various services like Cloud Monitoring, Cloud Logging, Cloud SQL, Cloud Storage, Memorystore, and Apigee for API management.
+>> Machine Learning and AI: Using Vertex AI for building, deploying, and scaling ML models, and responsible AI practices.
+>> Application Modernization: Using containers, Kubernetes (GKE), Anthos for hybrid cloud, and serverless computing.
+>> Financial Governance: Setting resource quotas, creating budget alerts, and implementing organizational policies for cost management.
+>> Service Level Agreements (SLAs) and Objectives (SLOs): Importance of setting SLOs higher than SLAs, and using error budgets to manage deployments.
+>> Cloud Adoption Framework: Themes like Lead, Learn, Scale, Secure, and assessing cloud readiness.
+>> DevOps and SRE Practices: Increasing software stability, making deployments quicker, and using observability tools to reduce toil.
+>> Hybrid Cloud: Combining on-premises data centers with public cloud for increased privacy, compliance, and frequent updates.
+>> Business Intelligence: Using Looker for accessing intelligent data and improving decision-making.
