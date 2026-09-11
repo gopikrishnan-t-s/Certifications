@@ -1,0 +1,146 @@
+05 Gen AI Agents Transform Your Organization
+============================================
+
+Agents
+------
+
+Two type of agents:
+> Deterministic
+  A deterministic agent is an agent that is based on predefined paths and actions. It is typically workflow-based and event-driven, and it offers a high degree of control and predictability. 
+  >> Not always effective
+  >> Don't have model (Only Reasoning loop and Tools)
+
+> Generative
+
+Building agents
+---------------
+
+> Sampling parameters and settings
+  >> Token count
+  >> Temperature
+Temperature is the number used to tune the degree of randomness. Low temperature means to narrow the range of possible words to those that have high possibilities and are more typical.
+
+In addition to adjusting the temperature, top-K lets the model randomly return a word from the top k number of words in terms of possibility. For example, top two means you get a random word from the top two possible words including flowers and trees. This approach allows the other high scoring word a chance of being selected
+
+  >> Top-p (nucleus sampling)
+Top-P allows the model to return a random word from the smallest subset with the sum of the likelihoods that exceeds or equals top-P
+  >> Safety settings
+  >> Output length
+
+> Google’s generative AI APIs
+  >> Google AI Studio
+Google AI Studio is a web-based tool that allows developers, students, and researchers to try Gemini models and begin building with the Gemini Developer API. It is designed for ease of use and accessibility, targeting a broad audience, including non-technical users who want to leverage AI capabilities without deep expertise in machine learning.
+  >> Vertex AI Studio
+Vertex AI Studio is a Google Cloud console tool for rapidly prototyping and testing generative AI models. It provides developers with a space to test models using prompt samples, design and save prompts, and tune foundation models.
+
+> The reasoning loop
+  >> Iterative process
+     The reasoning loop is not a one-time operation, but rather a cyclical process where the agent continuously evaluates its progress and determines the next best action to take. This loop involves steps for action, tool selection, and observation.
+  >> Internal reasoning
+     The agent uses its underlying language model to think through the steps it needs to take to complete a task. The language model provides the agent with reasoning and logic capabilities.
+  >> Decision making
+     Based on its internal reasoning, the agent decides on the next course of action. This involves choosing the appropriate tools to use and determining the necessary inputs for those tools.
+  >> Reasoning frameworks
+     The reasoning loop utilizes various prompt engineering frameworks and techniques to guide its reasoning and planning.
+
+> Prompt engineering techniques
+  >> ReAct prompting
+     ReAct, which stands for "reasoning and acting," is like giving an LLM a brain and a pair of hands. It allows the LLM to not only think about a problem but also take actions to solve it. This is a big step up from traditional prompting, where the LLM could only passively generate text.
+     
+     >> Why is ReAct important?
+        >>> Dynamic problem solving
+        >>> Reduced hallucination
+        >>> Increased trustworthiness
+
+     >> Key components of ReAct
+        >>> Think
+        >>> Act
+        >>> Observe
+        >>> Respond
+
+     >> ReAct in action
+        >>> Question answering
+        >>> Fact verification
+        >>> Decision making
+
+  >> Chain-of-thought (CoT)
+     CoT enables reasoning capabilities through intermediate steps. Think of CoT as a way to make LLMs even smarter by teaching them to think step-by-step, just like a human would. Instead of just giving the LLM a prompt and expecting an answer, you guide it through the reasoning process. You provide examples of how to solve similar problems, showing the steps involved. This helps the LLM learn to approach problems in a more logical and structured way.
+
+     >> Why is CoT important?
+        >>> Improved reasoning
+        >>> Better accuracy
+        >>> Enhanced explainability
+
+     >> Key components of CoT
+        >>> Self-consistency
+        >>> Active-prompting
+        >>> Multimodal CoT
+
+     >> CoT in action
+        >>> Complex reasoning tasks
+        >>> Explanation generation
+        >>> Multi-step planning
+
+> Agent tools
+  >> Extensions (APIs)
+  >> Functions
+     Functions are like specialized tools within the agent's toolbox. They represent specific actions the agent can perform. An agent's reasoning system selects the appropriate function based on the task at hand. Functions can encapsulate complex logic or interactions, making them reusable and manageable.
+  >> Data stores
+     Data stores provide agents with access to information. This can include real-time data, historical data, or knowledge bases. Data stores ensure that the agent's responses are accurate, relevant, and up-to-date.
+  >> Plugins
+
+> RAG and Tooling
+  Retrieval-augmented generation (RAG) enhances the capabilities of large language models (LLMs) by grounding their responses in external knowledge sources. This process allows the model to access and process information beyond its training data, leading to more accurate, relevant, and up-to-date responses.
+
+  RAG with tools:
+
+  >> Retrieval
+     >>> Data stores
+     >>> Vector databases
+     >>> Search engines
+     >>> Knowledge graphs
+  >> Augmentation
+  >> Generation
+
+ > Power of Search agents
+   >> Vertex AI Search
+
+ > Customer engagement
+   >> Conversational Agents
+      >>> Deterministic
+      >>> Generative
+      >>> Hybrid
+   >> Agent Assist
+      It is a tool that supports live human agents with in-the-moment assistance, generated responses, and real-time coaching to help them resolve customer issues faster and with greater accuracy. Using AI and generative AI, Agent Assist can recommend agent responses to customers, suggest the appropriate knowledge base content to solve a customer’s issue, transcribe or translate calls in real time, summarize conversations and more.
+   >> Conversational Insights
+      Conversational Insights analyzes conversational data from across the customer journey to provide contact center leaders and managers with the data-driven insights to boost efficiency, improve agent performance, and create better customer experiences. This tool uses machine learning analytics to provide you with information such as agent and caller sentiment, entity identification, and call topics. It can automatically identify interesting customer interactions in need of further review.
+   >> Contact center as a service (CCaaS)
+      CCaaS, part of Google's Customer Engagement suite, simplifies this by providing a complete contact center solution. It manages the infrastructure, integrates with CRMs, and offers omnichannel support (consistent experience across all channels, like websites, apps, phone, and text). CCaaS handles simultaneous multichannel communication, channel switching, multimodal interactions (text, voice, images), and agent routing, freeing businesses to focus on customer experience. CCaaS seamlessly integrates with other Customer Engagement Suite tools, including Conversational Agents for automated support, Agent Assist for real-time agent guidance, and Conversational Insights for valuable data analysis.
+
+Conversational Agents ---> Uses deterministic and generative AI.
+Agent Assist ---> Supports live human agents.
+Conversational Insights ---> Analyzes customer sentiment.
+CCaaS (Contact Center as a Service) ---> Provides omnichannel support.
+
+Strategy: Planning ahead
+------------------------
+
+> Plan for generative AI integration
+  >> Establish a clear vision
+  >> Prioritize high-impact use cases
+  >> Invest in capabilities
+  >> Drive organizational change
+  >> Measure and demonstrate value
+  >> Champion responsible AI
+
+> Plan for impact
+  >> Define key metrics
+  >> Collect and analyze data
+  >> Iterate and improve
+
+> Plan for change
+  >> Regularly review and refine your strategy
+  >> Stay informed
+  >> Engage with the generative AI community
+  >> Invest in training and development 
+  >> Attract and retain top talent
