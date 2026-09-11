@@ -1,0 +1,197 @@
+03 Gen AI: Navigate the Landscape
+=================================
+
+Gen AI Landscape:
+-----------------
+
+> Layers of Gen AI
+
+Gen AI Apps --> Agents --> Platform --> Models --> Infrastructure (Core)
+
+> Gen AI Apps
+  It's the user-facing part of generative AI, or the frontend. This is the layer that allows users to interact with and leverage the capabilities of AI. 
+Eg: Gemini app, Gemini for Workspace, NotebookLM.  
+
+> Agent
+  An agent is a piece of software that learns how to best achieve a goal based on inputs and tools available to it. 
+  This layer focuses on autonomous action, which describes the ability to independently set goals and carry them out within a defined environment. 
+  Agents analyze situations, use multiple tools, and make informed decisions without requiring constant human input. 
+  They are also capable of handling multi-step tasks that a model alone cannot, such as researching a topic, troubleshooting code, or accessing a system by chaining together actions. 
+  You can have a variety of agents, such as customer agents, code agents, data agents, and many more.  
+
+> Platform
+  The platform layer typically sits between agents and models, providing the infrastructure for them to interact.
+  he platform layer sits above the model and infrastructure layers, providing the necessary tools and infrastructure for AI development. 
+  It offers APIs, data management capabilities, and model deployment tools. This layer acts as the backbone of the system, bridging the gap between models and agents while simplifying the complexities of managing the underlying infrastructure. 
+
+> Models
+  "Brain" of AI model. The platform layer typically sits between agents and models, providing the infrastructure for them to interact.
+
+> Infrastructure
+  The infrastructure layer is the foundation upon which everything else rests. It provides the core computing resources needed for generative AI. This includes the physical hardware (like servers, GPUs, and TPUs) and software needed to store and run AI models and training data. 
+
+Agents and Gen AI powered apps
+------------------------------
+
+> Agents enhance applications by adding intelligence and automation and the applications provide the framework and purpose for agents.
+
+> How do agents relate to gen AI powered applications?
+  >> Understanding and responding to natural language
+  >> Automating complex tasks
+  >> Personalization
+
+> How agents work 
+  >> Conversational agents
+     >>> Answering questions
+     >>> Casual conversation
+     >>> Accessing information
+
+  >> Workflow agents
+     >>> Ecommerce order fulfillment
+     >>> Customer onboarding
+     >>> Automated research
+     >>> Security Log Parsing
+
+> AI agents are designed to observe, act, and achieve goals.
+
+> Agents incorporate two key elements that distinguish them from standalone models: 
+  >> A reasoning loop
+  >> Tools
+
+> The reasoning loop is the agent's "thinking process." 
+  It's a continuous cycle of:
+  >> Observing
+  >> Interpreting 
+  >> Planning
+  >> Acting
+
+The reasoning loop is the heart of an AI agent's operation. It's an iterative process where the agent:  
+
+Observes: Gathers information about its environment and the task at hand. 
+
+Interprets: Processes the information and assesses the current situation. 
+
+Plans: Plans a course of action to achieve its goal. 
+
+And acts: Executes the planned action.
+  
+This iterative process enables agents to analyze situations, plan actions, and adapt based on outcomes.  
+
+> Tools are functionalities that allow the agent to interact with its environment. Tools can be anything from accessing and processing data to interacting with software applications or even physical robots. This empowers agents to connect with real-world information and services, much like apps on our phones.  
+
+Gen AI platform to infrastructure
+---------------------------------
+
+Platform :
+
+> Simplifies managing underlying infrastructure
+Eg: Vertex AI
+
+> Features of Vertex AI:
+  >> Open and flexible
+  >> Powerful infrastructure
+  >> Pre-trained models
+  >> Comprehensive tooling
+  >> Customization
+  >> Easy integration
+
+> Vertex AI's MLOps tools
+  >> Feature store
+  >> Model registry
+  >> Model evaluation
+  >> Workflow orchestration
+
+Models :
+
+> Brain of operation
+  They're sophisticated mathematical structures trained on massive amounts of data. This training process allows them to learn patterns and relationships, ultimately enabling them to perform a wide range of tasks, such as generating content, analyzing data, and classifying information.
+
+Infrastructure :
+
+> The "infrastructure layer" is the foundation upon which any AI system is built. It's the combination of hardware and software that provides the necessary computing power, storage, and networking capabilities to train, deploy, and scale AI models. This layer is crucial for handling the massive datasets and complex computations involved in modern AI, especially with the rise of large language models and generative AI.
+
+> Key Components
+  >> High performance computing
+     >>> GPUs and TPUs
+     >>> Hypercomputers
+
+  >> High performance storage
+     >>> Large-scaling storage systems
+     >>> Fast storage access
+
+  >> Networking
+
+Where in the landscape
+----------------------
+
+> Edge computing
+  Edge computing allows AI to run locally on devices or servers closer to the data source, ensuring real-time responsiveness and increasing data control. Google provides tools like Lite Runtime (LiteRT) and Gemini Nano that are specifically designed for edge computing. Even when deploying on the edge, Vertex AI provides a powerful platform for building, training, and refining AI models.
+
+> Gen AI project resources: People, cost, and time
+  >> People
+     The AI stack is designed to support different roles with specific needs. Before jumping into building out a solution, ensure you have the proper expertise and talent for what you want to build. Business users can improve their tasks, developers can build custom AI solutions, and AI practitioners can develop and deploy advanced AI models responsibly and securely. This collaborative ecosystem allows your organization to leverage the full potential of AI across various business functions.
+     >>> Business leaders
+     >>> Developers
+     >>> Practitioners
+  
+  >> Cost
+     The pricing model of gen AI can vary based on which part of the gen AI landscape you are looking at or even which specific product or company you are using. It is important to have a realistic budget and understanding of the cost for your project.
+
+When building gen AI solutions, you pay for three primary activities:
+
+     >>> Training the model.
+
+     >>> Deploying the model to an endpoint.
+
+     >>> Using the model to make predictions.
+
+Pricing for using model:
+ > Usage-based
+Pricing metrics for using models:
+ > Tokens
+Factors affecting cost
+ > Model size and complexity
+
+  >> Time
+
+> Gen AI solution needs:
+
+  >> Scale
+     >>> Small-scale
+     >>> Large-scale
+  >> Customization
+     >>> Start with existing models
+     >>> Identify your unique needs
+     >>> Consider data specificity
+     >>> Consider task complexity
+  >> User interaction
+     >>> UI
+     >>> UX
+  >> Privacy
+     >>> Data security
+     >>> Compliance
+  >> Other considerations
+     >>> Latency
+     >>> Connectivity
+     >>> Accuracy
+     >>> Explainability
+
+  >> Making decisions
+     >>> Comparing different companies and models
+         >>>> Evaluate model capabilities
+         >>>> Compare pricing structures
+         >>>> Factor in additional costs
+         >>>> Read the fine print
+     >>> Key resources for comparison
+         >>>> Provider websites
+         >>>> Research papers and benchmarks
+         >>>> Community forums and discussions
+     >>> Maintenance
+         Key maintenance considerations
+         >>>> Model monitoring and retraining
+         >>>> Data updates
+         >>>> Software updates and bug fixes
+         >>>> Hardware and infrastructure
+         >>>> Security and compliance
+
+

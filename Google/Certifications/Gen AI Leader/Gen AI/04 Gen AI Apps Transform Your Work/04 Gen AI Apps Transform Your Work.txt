@@ -1,0 +1,103 @@
+04 Gen AI Apps: Transform Your Work
+===================================
+
+Gen AI for productivity
+-----------------------
+
+> Gemini for Google Workspace
+  >> Gemini Side panel
+  >> Gemini in Gmail
+  >> Gemini in Google Docs
+  >> Gemini in Google Slides
+  >> Gemini in Google Sheets
+  >> Gemini in Google Meet
+  >> Google Vids
+  >> AppSheet
+
+> Prompting techniques
+  >> Zero-shot prompting is like asking a foundation model to complete a task with no prior examples, relying solely on its existing knowledge. 
+  >> One-shot prompting involves showing the foundation model just one example, allowing it to learn and apply that knowledge to similar situations. 
+  >> Few-shot prompting, on the other hand, provides the foundation model with multiple examples to learn from, which helps it better understand the task and improve its performance.
+
+> Role prompting
+  Role prompting is a technique used to guide the behavior of LLMs by assigning them a specific role or persona. This can be anything from a business analyst or Shakespearean actor to a helpful customer service agent. By instructing the model to adopt a particular role, you influence the style, tone, and focus of its responses.
+
+> Prompt chaining
+  Prompt chaining is a powerful technique for getting more complex and nuanced results from large language models like Gemini. It's like having a conversation with the AI where each response builds upon the previous one, leading to a more sophisticated and refined outcome.
+
+Prompting Gen AI apps
+---------------------
+
+>  Reusing prompts
+   
+You may already find yourself reusing prompts or parts of prompts in your day-to-day workflow. As a start, you can save these prompts as templates in a document somewhere like a Google Doc and a Google Sheet.
+
+> Prompt chaining
+
+> Gemini Advanced
+
+Gemini Advanced is an upgraded version of Gemini with extra features, making it far more capable at highly complex tasks, like coding, logical reasoning, following nuanced instructions, and creative collaboration. You can adjust your data retention settings to determine how long information is stored and delete your conversation history at any time.
+
+> Gems 
+
+Think of Gems as your personalized AI assistants within Gemini.
+
+Like agents, these AI assistants can process information and reason over complex ideas within the context of your chosen task. You can have Gems dedicated to:
+
+  >> Creative writing
+  >> Coding
+  >> Marketing
+
+How do Gems work?
+
+>> Personalized responses
+>> Streamlined workflows
+>> Reset context
+
+
+> Grounding
+> RAG
+  >> Retrieving relevant information
+  >> Generating output
+ 
+  >> Improved accuracy and relevance
+  >> Improved explainability and transparency
+  >> Extending LLM capabilities
+
+> NotebookLM
+  NotebookLM is an AI-first notebook, grounded in your own documents, designed to help you gain insights faster. 
+  Uses:
+  >> Summarize key findings from each source.
+  >> Identify connections and contradictions between different perspectives.
+  >> Generate outlines and drafts for your paper.
+  >> Answer specific questions about the topic.
+
+  NotebookLM versus Gems
+  >> Hyper-focused knowledge:
+  >> Interactive learning
+  >> Source-based answers
+
+  >> Use cases
+     >>> Create training materials and documentation
+     >>> Researching a new topic
+     >>> Learn by listening to audio
+     >>> Preparing for a presentation
+     >>> Summarize documentation
+     >>> Project proposals and plans
+
+  By centralizing these resources in a shared NotebookLM, your team can:
+     >> Ask questions and gain a deeper understanding of the material together.
+     >> Generate collaborative summaries and reports that leverage everyone's insights.
+     >> Identify connections and contradictions between different perspectives more easily.
+     >> Stay up-to-date with the latest information and changes.
+
+> Gemini for Google Cloud
+
+  >> Gemini Cloud Assist
+  >> Gemini in BigQuery
+  >> Gemini Code Assist
+  >> Gemini in Colab Enterprise
+  >> Gemini in Databases
+  >> Gemini in Looker
+  >> Gemini in Security
+

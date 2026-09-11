@@ -1,0 +1,135 @@
+02 Gen AI: Unlock Foundational Concepts
+=======================================
+
+Core gen AI concepts
+--------------------
+
+AI ---> ML ----> Gen AI
+
+> Artificial intelligence (AI): The broad field of building machines that can perform tasks requiring human intelligence.
+> Machine learning (ML): A subset of AI where machines learn from data.
+> Generative AI: An application of AI that creates new content.
+
+> Data :
+  >> Data quality
+This is why the quality and quantity of the data ML models learn from is absolutely crucial to how well they perform. 
+There are five factors to focus on when thinking about data quality:
+  >>> Accuracy
+  >>> Completeness
+  >>> Representative
+  >>> Consistency
+  >>> Relevance
+  
+  >> Data accessibility
+The ability of AI systems to effectively utilize this data is directly tied to data accessibility. Data accessibility ensures that the necessary data is readily available, usable, and of high quality, allowing for comprehensive model training and reducing potential biases. Without accessible data, even the most sophisticated algorithms are limited in their ability to learn and provide accurate predictions.
+  >>> Availability
+  >>> Cost
+  >>> Format
+
+  >> Data types
+Data is central to many business processes and various data types can be used in machine learning, but data isn’t just about numbers and files. Business datasets help organizations understand customers, optimize operations, and drive strategic decisions.
+
+Larger datasets frequently improve model performance, particularly for complex generative AI models that produce diverse content. However, a large dataset isn’t the only thing that matters because model performance is heavily dependent on the type of data used for training. This includes the data’s volume and its organization and structure.
+  >>> Structured Data
+  >>> Unstructured Data
+
+> Types of learning:
+  >> Labeled data has tags, such as a name, type, or number. These tags, whether applied manually or by automated systems, assign meaning to the data. 
+  >> Unlabeled data is simply data that is not tagged or labeled in any way. It's raw, unprocessed information without inherent meaning. 
+
+  >> Supervised machine learning trains models on labeled data, where each input is paired with its correct output, allowing the model to learn the relationship between them. The model's goal is to identify patterns and relationships within this labeled data, enabling it to accurately predict outputs for new, unseen inputs.
+  >> Unsupervised ML models deal with raw, unlabeled data to find natural groupings. Instead of learning from labeled data, it dives headfirst into a sea of unlabeled data. 
+
+  >> Reinforcement learning
+Reinforcement learning is all about learning through interaction and feedback. Imagine a robot learning to navigate a maze. It starts with no knowledge of the maze's layout. As it explores and interacts with the maze, it collects data—bumping into walls (negative feedback) or finding shortcuts (positive feedback). Through this process of trial and error, the algorithm learns which actions lead to the best outcomes.
+
+> Key stages of making data accessible for AI (ML Lifecycle)
+  >> Gather data
+     >>> Pub/Sub, Cloud Storage, Cloud SQL, Cloud Spanner
+  >> Prepare
+     >>> BigQuery, Data Catalog
+  >> Train model
+     >>> Vertex AI Platform
+  >> Deploy and predict
+     >>> Vertex AI
+  >> Manage model
+     >>> Versioning
+     >>> Performance tracking
+     >>> Drift monitoring
+     >>> Data management
+     >>> Storage
+     >>> Automate
+
+
+Foundation Models
+-----------------
+
+ML ---> Deep Learning
+
+> Machine learning 
+A broad field that encompasses many different techniques, one of which is deep learning (DL). 
+
+> Deep learning 
+A powerful subset of machine learning, distinguished by its use of artificial neural networks. These networks enable the processing of highly complex patterns and the generation of sophisticated predictions.
+
+> LLMs
+
+> Diffusion models
+Diffusion models are another type of foundational model. They excel in generating high-quality images, audio, and even video by iteratively refining noise (or unstructured/random data and patterns) into structured data.
+
+> Factors when choosing a model for your use case
+  >> Modality
+  >> Context window
+  >> Security
+  >> Availability and reliability
+  >> Cost
+  >> Performance
+  >> Fine-tuning and customization
+  >> Ease of integration
+
+> Foundation model limitations
+  >> Data dependency
+  >> Knowledge cutoff
+  >> Bias
+  >> Fairness
+  >> Hallucinations
+  >> Edge cases
+
+> Techniques to overcome limitations 
+  >> Grounding
+     Grounding is the process of connecting the AI's output to verifiable sources of information—like giving AI a reality check. By providing the model with access to specific data sources, we tether its output to real-world information, reducing the risk of invented content. 
+
+In an enterprise context, this means training the AI on a company's specific data. This allows it to generate tailored responses relevant to your organization, not just generic ones.
+
+  >> Retrieval-augmented generation (RAG)
+     RAG is a grounding method that uses search to find relevant information from a knowledge base and provides that information to the LLM, giving it necessary context.
+
+Retrieval --> Augmentation --> Genaration
+
+  >> Prompt engineering
+     Prompting offers the most rapid and straightforward approach to supplying supplementary background information to models. This involves crafting precise prompts to guide the model towards desired outputs. It refines results by understanding the factors that influence a model's responses
+
+  >> Fine-tuning
+     This process is particularly useful for specific tasks or when you need to enforce specific output formats
+
+> Humans in the loop (HITL)
+  >> Content moderation
+  >> Sensitive applications
+  >> High-risk decision making
+  >> Pre-generation review
+  >> Post-generation review
+
+Building AI securely and responsibly
+------------------------------------
+
+> Secure AI
+Secure AI is about preventing intentional harm being done to your applications. This is about protecting AI systems from malicious attacks and misuse. For all applications, including AI, you need to ensure security throughout the full lifecycle from development through deployment. This includes considering the data, infrastructure, and how and where applications are deployed.
+  >> Applying the Secure AI Framework (SAIF)
+  >> Google Cloud security tools
+
+> Responsible AI
+  >> Transparency
+  >> Privacy
+  >> Data quality, bias and fairness
+  >> Accountability and explainability
+

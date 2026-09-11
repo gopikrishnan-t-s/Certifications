@@ -1,0 +1,58 @@
+01 Gen AI Beyond the Chatbot
+============================
+
+Introduction: Gen AI for business
+---------------------------------
+
+> Gen AI
+> Multimodal Gen AI
+> Vertex AI Search:
+  Vertex AI Search is a Google Cloud service that allows developers to easily integrate advanced search capabilities into their applications. It's a fully managed, scalable service that can handle large volumes of multimodal data and complex search queries.
+> Benefits :-
+  >> Reduced support costs
+  >> Fewer calls to customer service
+  >> Improved efficiency
+  >> Enhanced accessibility
+
+
+Introduction: Gen AI foundations
+--------------------------------
+
+> Foundation models:
+  Foundation models are large AI models trained on enormous data sets. This broad training allows them to develop a deep understanding of the data and be adapted to a wide range of downstream tasks.
+  Large amount of data ---> Data needed
+  Eg: LLM
+  >> Streamline processes
+  >> Automate task
+  >> Unlock new possibilities
+
+
+Gen AI Strategy
+---------------
+
+> Top-down & Botttom-up approach
+  >> Top-down:
+     create a clear and compelling vision for AI within your organization by aligning AI solutions with your strategic business priorities. Focus on your business priorities first. Think about the most important use cases and workflows to your business. And then, and only then, think about how AI can support you in those priorities.
+  >> Bottom-up:
+     teams are encouraged to share their challenges and ideas for gen AI solutions. Sometimes, the best ideas will come from the people who are closest to the problem. You want to make sure these people can also bring in gen AI. Because gen AI is so accessible to people in all sorts of roles, encourage employees to use gen AI at a small scale, and then share their solutions with the organization for broader implementation.
+
+> Creative matrix
+  A creative matrix is great because it can help your team think through different aspects of what gen AI can do. For this creative matrix workflow, you would get a team together and create two axes. Axes are flexible.
+  One axis ---> Gen AI solutions
+  Other axis ---> Business solutions
+
+> Use gen AI to enhance or augment your strategic thinking for:
+  >> Critical thinking and problem solving:
+  >> Creativity and innovation
+  >> Relationship building and collaboration
+  >> Strategic planning and vision
+
+> Use gen AI to automate tasks that are:
+  >> Repetitive and rule-based
+  >> Time-consuming and resource-intensive
+
+> Even for task automation, humans-in-the-loop are a necessary component for the gen AI implementation and continuous improvement. Use people for:
+  >> Data selection and preparation 
+  >> Prompt design and refinement 
+  >> Output evaluation and refinement
+  >>Continuous monitoring and feedback
