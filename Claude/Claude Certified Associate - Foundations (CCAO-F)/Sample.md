@@ -1,4 +1,4 @@
-###### **1. Claude's answers are inconsistent across similar requests. What optimization helps most?**
+### **1. Claude's answers are inconsistent across similar requests. What optimization helps most?**
 
 
 
