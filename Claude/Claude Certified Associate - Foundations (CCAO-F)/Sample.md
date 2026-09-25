@@ -1,4 +1,4 @@
-**1. Claude's answers are inconsistent across similar requests. What optimization helps most?**
+###### **1. Claude's answers are inconsistent across similar requests. What optimization helps most?**
 
 
 
@@ -20,7 +20,7 @@ Inconsistency often comes from prompt drift. Templates and durable project instr
 
 
 
-**2. Which signal most strongly suggests a Claude summary may be incomplete?**
+###### **2. Which signal most strongly suggests a Claude summary may be incomplete?**
 
 
 
@@ -42,7 +42,7 @@ Relevant omissions are a primary incompleteness signal. Summaries are expected t
 
 
 
-**3. Claude cites "a recent industry study" without title, author, date, or link. How should you treat that claim?**
+###### **3. Claude cites "a recent industry study" without title, author, date, or link. How should you treat that claim?**
 
 
 
@@ -60,11 +60,11 @@ Vague study references are classic unsupported claims. Validation requires ident
 
 
 
-\---
+\----
 
 
 
-**4. You ask Claude for a competitive analysis your team will edit and reuse over several weeks. Which output format request fits best?**
+###### **4. You ask Claude for a competitive analysis your team will edit and reuse over several weeks. Which output format request fits best?**
 
 
 
@@ -82,7 +82,7 @@ A substantial document meant for iteration and reuse is the classic artifact cas
 
 
 
-\---
+\----
 
 
 
@@ -92,7 +92,7 @@ A substantial document meant for iteration and reuse is the classic artifact cas
 
 When you want project chats to run faster by skipping the knowledge base entirely
 
-When paid-plan project knowledge grows large enough that retrieval is needed to scale beyond raw context limits
+**When paid-plan project knowledge grows large enough that retrieval is needed to scale beyond raw context limits**
 
 When a project holds only a handful of short documents that already fit comfortably within the regular context window
 
