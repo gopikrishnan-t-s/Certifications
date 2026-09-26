@@ -1,13 +1,12 @@
 ### **1. Claude's answers are inconsistent across similar requests. What optimization helps most?**
 
 
-
 1. Attach broader background files so every request shares the maximum context
 2. Increase the level of detail requested so the answers converge on completeness
 3. **Standardize prompts/templates and move durable rules into project instructions**
 4. Ask each question in multiple chats and keep whichever answer recurs the most
 
-
+---
 
 Inconsistency often comes from prompt drift. Templates and durable project instructions stabilize behavior; detail inflation, majority voting, and bulk context treat the symptom instead of the drift.
 
