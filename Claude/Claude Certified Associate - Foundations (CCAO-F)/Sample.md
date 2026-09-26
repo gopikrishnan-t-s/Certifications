@@ -13,11 +13,7 @@ Inconsistency often comes from prompt drift. Templates and durable project instr
 
 
 
-\----
-
-
-
-###### **2. Which signal most strongly suggests a Claude summary may be incomplete?**
+### **2. Which signal most strongly suggests a Claude summary may be incomplete?**
 
 
 
@@ -32,10 +28,6 @@ The summary paraphrases the source rather than quoting it directly
 
 
 Relevant omissions are a primary incompleteness signal. Summaries are expected to be shorter, may reorder for the reader, and normally paraphrase; none of those traits alone means content is missing.
-
-
-
-\---
 
 
 
